@@ -1,0 +1,63 @@
+HELP.md
+target/
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+# =================================
+# MARCA AI - SEGURANÇA
+# =================================
+
+# Variáveis de ambiente
+.env
+.env.*
+!.env.example
+
+# Configurações locais com credenciais
+application-local.properties
+application-secret.properties
+
+# Credenciais Google OAuth
+credentials.json
+client_secret*.json
+
+# Tokens e arquivos sensíveis
+tokens/
+token/
+.marca-ai/
+google-calendar-tokens/
+*.p12
+*.pem
+
+# Logs
+*.log
+# IntelliJ - configurações locais
+.run/
